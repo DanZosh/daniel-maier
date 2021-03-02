@@ -1,0 +1,13 @@
+:root{
+    --grey: #31343e;
+    --teal:#80cecf;
+    --blue: #37587a;
+    --white: #eeeef8;
+  }
+nav { background-color: var(--blue);
+
+}
+
+span{
+    margin-left: 60px;
+}

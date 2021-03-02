@@ -1,0 +1,20 @@
+:root{
+    --grey: #31343e;
+    --teal:#80cecf;
+    --blue: #37587a;
+    --white: #eeeef8;
+  }
+
+.headshot{
+    width: 190px;
+    /* max-width: 100%; */
+    height:190px;
+    border: 10px solid var(--grey);
+    border-radius: 100%;
+    background-image: url("../../assets/images/HeadshotDanMaier.jpg");
+    position: relative;
+    background-size:cover;
+    background-position:center;
+    left:48px;
+    bottom:20px;  
+  }
