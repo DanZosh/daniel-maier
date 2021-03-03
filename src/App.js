@@ -3,6 +3,7 @@ import Nav from "./components/Nav"
 import Jumbotron from "./components/Jumbotron"
 import HeadShot from "./components/HeadShot"
 import Card from "./components/Card"
+// import Card2 from "./components/Card2"
 import Wrapper from "./components/Wrapper";
 import "./App.css";
 import projects from "./projects.json"

@@ -4,13 +4,13 @@ import "./style.css";
 function Card({key, id, image, title, summary, gitLink, actualLink}) {
     return (
 
-      <div className="row">
-      <div className="col s12 m7">
+ 
+      <div className="col s12 m4">
         <div className="card">
           <div className="card-image">
             <img src={image}/>
-            <span className="card-title">{title}</span>
           </div>
+            <span className="card-title">{title}</span>
           <div className="card-content">
             <p>{summary}</p>
           </div>
@@ -20,7 +20,7 @@ function Card({key, id, image, title, summary, gitLink, actualLink}) {
         </div>
         </div>
       </div>
-    </div>
+
 
     )
 }

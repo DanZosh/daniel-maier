@@ -1,33 +1,33 @@
 [
     {
         "id":1,
-        "image": "project1 link 1",
+        "image": "https://picsum.photos/200",
         "title": "Project1",
-        "summary": "1",
+        "summary": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
         "gitLink": "1",
         "actualLink": "1"
     },
     {
         "id":2,
-        "image": "project2 link",
+        "image": "https://picsum.photos/200",
         "title": "Project2",
-        "summary": "2",
+        "summary": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
         "gitLink": "2",
         "actualLink": "2"
     },
     {
         "id":3,
-        "image": "project1 link 3",
+        "image": "https://picsum.photos/200",
         "title": "Project3",
-        "summary": "3",
+        "summary": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
         "gitLink": "3",
         "actualLink": "3"
     },
     {
         "id":4,
-        "image": "project1 link 4",
+        "image": "https://picsum.photos/200",
         "title": "Project4",
-        "summary": "4",
+        "summary": "4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
         "gitLink": "4",
         "actualLink": "4"
     }
