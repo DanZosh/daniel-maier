@@ -3,24 +3,33 @@ import Wrapper from "../Wrapper";
 import Card from "../Card";
 
 function Work(props){
-    {console.log("workProps:", props)}
+    
+    {console.log("workProps:", props.projectsProp)}
+return(
 
     <Wrapper>
-    {props.projectProp.map(project =>{
+    {props.projectsProp.map(project =>{
     return(
         <Card
-        key = {props.projectProp.id}
-        id = {props.projectProp.id}
-        image = {props.projectProp.image}
-        title = {props.projectProp.title}
-        summary = {props.projectProp.summary}
-        gitLink = {props.projectProp.gitLink}
-        actualLink = {props.projectProp.actualLink}
-        // {...project} //image title summary gitLink actualLink
+        // key = {props.projectsProp.id}
+        // id = {props.projectsProp.id}
+        // image = {props.projectsProp.image}
+        // title = {props.projectsProp.title}
+        // summary = {props.projectsProp.summary}
+        // gitLink = {props.projectsProp.gitLink}
+        // actualLink = {props.projectsProp.actualLink}
+        key = {project.id}
+        id = {project.id}
+        image = {project.image}
+        title = {project.title}
+        summary = {project.summary}
+        gitLink = {project.gitLink}
+        actualLink = {project.actualLink}
         />
     )
     })}
     </Wrapper>
+)
 
 }
 export default Work;

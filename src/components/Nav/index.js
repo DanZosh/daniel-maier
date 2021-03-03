@@ -1,7 +1,9 @@
 import React from 'react'
+import Work from "../pages/Work";
 import "./style.css"; 
 
 function Nav(props){
+    {console.log("NavProps: ", props.projectsProp)}
     return(
         <nav>
             <div className="nav-wrapper">
@@ -14,11 +16,14 @@ function Nav(props){
                     >About Me</a>
                 </li>
                 <li>
-                    <a 
-                        href="#Work"
-                        onClick={()=> props.handleDisplayChangeProp("Work")}
-                        projectProp = {props.projectProp}
-                    >Work</a>
+                    <a
+                            href="#Work"
+                            onClick={()=> props.handleDisplayChangeProp("Work")}
+                    >
+                        <Work
+                            projectsProp = {props.projectsProp}
+                        >Work</Work>
+                    Work</a>
                 </li>
                 <li>
                     <a 
