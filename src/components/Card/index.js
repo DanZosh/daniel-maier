@@ -15,8 +15,8 @@ function Card({key, id, image, title, summary, gitLink, actualLink}) {
             <p>{summary}</p>
           </div>
           <div class="card-action">
-            <a href={gitLink}>App</a>
-            <a href={actualLink}>Repo</a>
+            <a target="_blank" href={gitLink}>Repo</a>
+            <a target="_blank" href={actualLink}>App</a>
         </div>
         </div>
       </div>

@@ -1,34 +1,50 @@
 [
     {
         "id":1,
-        "image": "https://picsum.photos/200",
-        "title": "Project1",
-        "summary": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
-        "gitLink": "1",
-        "actualLink": "1"
+        "image": "../src/assets/images/3_passwordGenerator.jpg",
+        "title": "Password Generator",
+        "summary": "My first javascript project. This app will build a unique password for the user.",
+        "gitLink": "https://github.com/DanZosh/passwordGeneration",
+        "actualLink": "https://danzosh.github.io/passwordGeneration/"
     },
     {
         "id":2,
         "image": "https://picsum.photos/200",
-        "title": "Project2",
-        "summary": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
-        "gitLink": "2",
-        "actualLink": "2"
+        "title": "weatherDash",
+        "summary": "This app generates weather forecast data for the user based on searched cities. The list of cities previously searched remain persistent.",
+        "gitLink": "https://github.com/DanZosh/weatherDash",
+        "actualLink": "https://danzosh.github.io/weatherDash/"
     },
     {
         "id":3,
         "image": "https://picsum.photos/200",
-        "title": "Project3",
-        "summary": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
-        "gitLink": "3",
-        "actualLink": "3"
+        "title": "Taskday",
+        "summary": "This project helps organize tasks by hour for a given day and uses Moment.js to customize the CSS.",
+        "gitLink": "https://github.com/DanZosh/Taskday",
+        "actualLink": "https://danzosh.github.io/Taskday/"
     },
     {
         "id":4,
         "image": "https://picsum.photos/200",
-        "title": "Project4",
-        "summary": "4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa eu lacus vestibulum sagittis.",
-        "gitLink": "4",
-        "actualLink": "4"
+        "title": "Brewery Hopper",
+        "summary": "This was my first team project. Search for breweries by city.",
+        "gitLink": "https://github.com/DanZosh/BreweryHopper_ProjectOne",
+        "actualLink": "https://danzosh.github.io/BreweryHopper_ProjectOne/"
+    },
+        {
+        "id":5,
+        "image": "https://picsum.photos/200",
+        "title": "Sundial",
+        "summary": "This was my second team project. This app helps track the time spent on project throughout the day and summarizes total time spent on each project in decimal hours to report into a time sheet.",
+        "gitLink": "https://github.com/DanZosh/POD_9_Proj_2",
+        "actualLink": "https://dry-forest-22741.herokuapp.com/"
+    },
+    {
+        "id":6,
+        "image": "https://picsum.photos/200",
+        "title": "NoteTaker",
+        "summary": "I don't remember building this project at all.",
+        "gitLink": "https://github.com/DanZosh/POD_9_Proj_2",
+        "actualLink": "https://dry-forest-22741.herokuapp.com/"
     }
 ]
