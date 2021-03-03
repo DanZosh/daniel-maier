@@ -1,17 +1,23 @@
 import React from "react";
+import {Document,Page} from 'react-pdf';
 
 function Resume() {
+
     return (
         <div>
             <h1>Resume:</h1>
-        {/* <a href="./assets/resume/Daniel Maier Resume.pdf" target="_blank" class="newBackground">Resume</a> */}
-            <embed 
-            // href="../../assets/resume/Daniel_Maier_Resume.pdf" 
-            // style={{width:"800px", height:"2100px"}}
-            src='https://drive.google.com/file/d/1x1-DkLpOiQQvHiJT-xQqJOC6bSC7A-Zl/view?usp=sharing'
-            />
-
-        {/* <iframe/> */}
+            <div>
+                <object 
+                data="../../assets/resume/Daniel_Maier_Resume.pdf" 
+                type="application/pdf" 
+                width="100%" 
+                height="100%">
+                </object>
+                <Document
+                    file="../../assets/resume/Daniel_Maier_Resume.pdf"
+                >
+                </Document>
+            </div>
         </div>
     );
 }
