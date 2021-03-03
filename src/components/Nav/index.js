@@ -20,10 +20,10 @@ function Nav(props){
                             href="#Work"
                             onClick={()=> props.handleDisplayChangeProp("Work")}
                     >
-                        <Work
-                            projectsProp = {props.projectsProp}
-                        >Work</Work>
-                    Work</a>
+                        {/* <Work projectsProp = {props.projectsProp}> */}
+                        Work
+                        {/* </Work> */}
+                    </a>
                 </li>
                 <li>
                     <a 

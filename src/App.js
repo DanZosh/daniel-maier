@@ -30,7 +30,7 @@ import projects from "./projects.json"
           <HeadShot/>
         </Jumbotron>
         <Nav
-          projectsProp = {this.state.projects}
+          // projectsProp = {this.state.projects}
           displayProp = {this.state.display}
           handleDisplayChangeProp = {this.handleDisplayChange}
         />
@@ -50,7 +50,7 @@ import projects from "./projects.json"
         {(this.state.display === "AboutMe") && <About/>}
         {(this.state.display === "ContactMe") && <ContactMe/>}
         {(this.state.display === "Resume") && <Resume/>}
-        {(this.state.display === "Work") && <Work/>}
+        {(this.state.display === "Work") && <Work projectsProp = {this.state.projects}/>}
 
       </div>
     );
