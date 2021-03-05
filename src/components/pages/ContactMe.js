@@ -4,7 +4,7 @@ function ContactMe() {
     return (
     <div>
 
-    <h1>Contact Me:</h1>
+    <h1 style={{marginLeft:"80px", color:"#37587a" }}>Contact Me:</h1>
     {/* <body> */}
         <div className="container">
             <div className="row">

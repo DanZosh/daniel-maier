@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "image": "../src/assets/images/3_passwordGenerator.jpg",
+        "image": "/assets/images/3_passwordGenerator.jpg",
         "title": "Password Generator",
         "summary": "My first javascript project. This app will build a unique password for the user.",
         "gitLink": "https://github.com/DanZosh/passwordGeneration",
@@ -9,7 +9,7 @@
     },
     {
         "id":2,
-        "image": "https://picsum.photos/200",
+        "image": "/assets/images/6_weatherDash.png",
         "title": "weatherDash",
         "summary": "This app generates weather forecast data for the user based on searched cities. The list of cities previously searched remain persistent.",
         "gitLink": "https://github.com/DanZosh/weatherDash",
@@ -17,7 +17,7 @@
     },
     {
         "id":3,
-        "image": "https://picsum.photos/200",
+        "image": "/assets/images/5_taskday.png",
         "title": "Taskday",
         "summary": "This project helps organize tasks by hour for a given day and uses Moment.js to customize the CSS.",
         "gitLink": "https://github.com/DanZosh/Taskday",
@@ -25,7 +25,7 @@
     },
     {
         "id":4,
-        "image": "https://picsum.photos/200",
+        "image": "/assets/images/7_homeBrew.png",
         "title": "Brewery Hopper",
         "summary": "This was my first team project. Search for breweries by city.",
         "gitLink": "https://github.com/DanZosh/BreweryHopper_ProjectOne",
@@ -33,7 +33,7 @@
     },
         {
         "id":5,
-        "image": "https://picsum.photos/200",
+        "image": "/assets/images/15_sunDial.png",
         "title": "Sundial",
         "summary": "This was my second team project. This app helps track the time spent on project throughout the day and summarizes total time spent on each project in decimal hours to report into a time sheet.",
         "gitLink": "https://github.com/DanZosh/POD_9_Proj_2",
@@ -41,7 +41,7 @@
     },
     {
         "id":6,
-        "image": "https://picsum.photos/200",
+        "image": "/assets/images/11_noteTaker.png",
         "title": "NoteTaker",
         "summary": "I don't remember building this project at all.",
         "gitLink": "https://github.com/DanZosh/POD_9_Proj_2",
