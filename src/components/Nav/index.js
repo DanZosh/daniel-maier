@@ -1,9 +1,13 @@
 import React from 'react'
-import Work from "../pages/Work";
+import M from "materialize-css"
 import "./style.css"; 
 
+
 function Nav(props){
-    {console.log("NavProps: ", props.projectsProp)}
+    
+
+
+    
     return(
         <nav>
             <div className="nav-wrapper">
@@ -27,15 +31,13 @@ function Nav(props){
                     </li>
                     <li>
                         <a 
-                            href="#ContactMe"
-                            onClick={()=> props.handleDisplayChangeProp("ContactMe")}
-                        >Contact Me</a>
-                    </li>
-                    <li>
-                        <a 
                             href="#Resume"
                             onClick={()=> props.handleDisplayChangeProp("Resume")}
                         >Resume</a>
+                    </li>
+                    {/* Contact button here */}
+                    <li>
+                        {props.children}
                     </li>
                 </ul>
             </div>

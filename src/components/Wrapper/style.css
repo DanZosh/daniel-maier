@@ -1,6 +1,12 @@
+:root{
+    --grey: #31343e;
+    --teal:#80cecf;
+    --blue: #37587a;
+    --white: #eeeef8;
+  }
 .wrapper {
     /* padding-top: 50px;  */
-    background: #ECEFF1;
+    /* background: #ECEFF1; */
     /* height: 50%; */
     display: flex;
     /* flex-flow: row wrap; */

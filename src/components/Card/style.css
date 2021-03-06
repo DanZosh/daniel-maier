@@ -1,3 +1,11 @@
+:root{
+    --grey: #31343e;
+    --teal:#80cecf;
+    --blue: #37587a;
+    --white: #eeeef8;
+  }
+
 img{
-    
+    border-style: 10px solid var(--blue);
+
 }

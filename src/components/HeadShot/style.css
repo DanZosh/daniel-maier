@@ -11,7 +11,7 @@
     height:190px;
     border: 10px solid var(--grey);
     border-radius: 100%;
-    background-image: url("../../assets/images/HeadshotDanMaier.jpg");
+    background-image: url("./HeadshotDanMaier.jpg");
     position: relative;
     background-size:cover;
     background-position:center;
