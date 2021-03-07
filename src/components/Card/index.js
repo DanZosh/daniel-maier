@@ -10,6 +10,7 @@ function Card({key, id, image, title, summary, gitLink, actualLink}) {
           <div className="card-image">
             <img src={image}/>
           </div>
+          <div className="divider" tabindex="-1"></div>
             <span className="card-title">{title}</span>
           <div className="card-content">
             <p>{summary}</p>

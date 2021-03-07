@@ -30,10 +30,11 @@ function Nav(props){
                         </a>
                     </li>
                     <li>
-                        <a 
+                        {/* <a 
                             href="#Resume"
                             onClick={()=> props.handleDisplayChangeProp("Resume")}
-                        >Resume</a>
+                        >Resume</a> */}
+                        <a href="./assets/resume/Daniel_Maier_Resume.pdf" target="_blank" class="newBackground">Resume</a>
                     </li>
                     {/* Contact button here */}
                     <li>

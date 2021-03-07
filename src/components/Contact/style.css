@@ -1,0 +1,13 @@
+:root{
+    --grey: #31343e;
+    --teal:#80cecf;
+    --blue: #37587a;
+    --white: #eeeef8;
+    --orange: #ffab40;
+  }
+
+.dropdown-content li>a{
+    /* background-color: var(--white); */
+    color: var(--blue);
+    font-size: 15px;
+}

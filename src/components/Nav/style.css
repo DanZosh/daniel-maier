@@ -3,6 +3,7 @@
     --teal:#80cecf;
     --blue: #37587a;
     --white: #eeeef8;
+    --orange: #ffab40;
   }
 nav { background-color: var(--blue);
 

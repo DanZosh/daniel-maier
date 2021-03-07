@@ -9,3 +9,8 @@ img{
     border-style: 10px solid var(--blue);
 
 }
+.card-title{
+  margin-left: 24px;
+  margin-top: 24px;
+  padding-top:24px
+}
