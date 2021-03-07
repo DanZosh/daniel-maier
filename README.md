@@ -24,7 +24,7 @@ dannymaier@gmail.com
 ## Links:
 See below for a list of helpful links:
 
-* heroku:<br> https://damp-beyond-35763.herokuapp.com/
+* heroku:<br> https://daniel-maier.herokuapp.com
 * github:<br> https://github.com/DanZosh/userDirectory
 
 
