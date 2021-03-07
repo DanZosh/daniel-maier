@@ -27,7 +27,7 @@
         "id":4,
         "image": "/assets/images/7_homeBrew.png",
         "title": "Brewery Hopper",
-        "summary": "This was my first team project. Search for breweries by city.",
+        "summary": "This was my first team project. Search for breweries by city and display the location on a map.",
         "gitLink": "https://github.com/DanZosh/BreweryHopper_ProjectOne",
         "actualLink": "https://danzosh.github.io/BreweryHopper_ProjectOne/"
     },
@@ -43,7 +43,7 @@
         "id":6,
         "image": "/assets/images/11_noteTaker.png",
         "title": "NoteTaker",
-        "summary": "I don't remember building this project at all.",
+        "summary": "This application is used to write, save, and delete notes. This application uses an express backend to save and retrieve note data from a JSON file.",
         "gitLink": "https://github.com/DanZosh/POD_9_Proj_2",
         "actualLink": "https://dry-forest-22741.herokuapp.com/"
     }

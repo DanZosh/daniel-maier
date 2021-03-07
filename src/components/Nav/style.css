@@ -13,9 +13,3 @@ span{
     margin-left: 60px;
     
 }
-@media screen and (max-width: 1000px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
-  nav {
-    flex-direction: column;
-  }
-}

@@ -5,12 +5,28 @@
     --white: #eeeef8;
   }
 
-img{
-    border-style: 10px solid var(--blue);
 
-}
 .card-title{
-  margin-left: 24px;
-  margin-top: 24px;
-  padding-top:24px
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom:5px;
+}
+.divider{
+  margin-left: -5px;
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+  align-content:stretch;
+  justify-content:space-between
+}
+.card-container{
+  display:flex;
+  flex-grow:4;
+  flex-shrink:4;
+  align-content:stretch;
+
 }
