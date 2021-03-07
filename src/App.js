@@ -58,12 +58,15 @@ componentDidMount(){
         >
           <Contact/>
         </Nav>
+   
 
+          {(this.state.display === "AboutMe") && <About/>}
+          {/* {(this.state.display === "ContactMe") && <ContactMe/>} */}
+          {(this.state.display === "Resume") && <Resume/>}
+          {(this.state.display === "Work") && <Work projectsProp = {this.state.projects}/>}
 
-        {(this.state.display === "AboutMe") && <About/>}
-        {/* {(this.state.display === "ContactMe") && <ContactMe/>} */}
-        {(this.state.display === "Resume") && <Resume/>}
-        {(this.state.display === "Work") && <Work projectsProp = {this.state.projects}/>}
+     
+
 
       </div>
     );
