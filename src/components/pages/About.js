@@ -12,7 +12,7 @@ function About() {
                     I took the opportunity during Covid winter to diversity my skill set and joined the University of Washington Full Stack Web Developer Boot Camp while continuing to work full time. It was one of the most rewarding and challenging courses I've ever taken. I'm grateful to my husband and greyhound for helping me through it.
                     </p>
                     <p className="col ">
-                    Outside of work and school I like to paint, skate, game, travel and spend time with my friends and community.
+                    Outside of work and school I like to paint, skate, game, travel and spend time with my family, friends and community.
                     </p>
                 </div>
             </div>
