@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
         <div>
-            <h1 style={{marginLeft:"80px", color:"#37587a"}}>About Me:</h1>
+            {/* <h1 style={{marginLeft:"80px", color:"#37587a"}}>About Me:</h1> */}
             <div className="container">
                 <div className="row">
                     <p className="col ">
