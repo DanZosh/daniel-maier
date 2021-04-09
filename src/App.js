@@ -1,4 +1,4 @@
-import React from 'react';
+styleimport React from 'react';
 import Nav from "./components/Nav"
 import Jumbotron from "./components/Jumbotron"
 import HeadShot from "./components/HeadShot"
